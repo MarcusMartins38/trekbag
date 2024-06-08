@@ -11,9 +11,7 @@ function App() {
 
       <main>
         <Header />
-
         <ItemList />
-
         <Sidebar />
       </main>
 
