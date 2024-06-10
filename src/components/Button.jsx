@@ -1,7 +1,10 @@
 export default function Button({ type, children }) {
   return (
-    <div className={`btn ${type === "secondary" ? "btn--secondary" : ""}`}>
+    <button
+      type="submit"
+      className={`btn ${type === "secondary" ? "btn--secondary" : ""}`}
+    >
       {children}
-    </div>
+    </button>
   );
 }
