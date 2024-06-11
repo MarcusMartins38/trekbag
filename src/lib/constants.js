@@ -2,16 +2,16 @@ export const initialItems = [
   {
     id: 1,
     name: "good mood",
-    package: true,
+    packed: true,
   },
   {
     id: 2,
     name: "passaport",
-    package: false,
+    packed: false,
   },
   {
     id: 3,
     name: "phone charger",
-    package: false,
+    packed: false,
   },
 ];
