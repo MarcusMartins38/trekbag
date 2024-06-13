@@ -59,7 +59,7 @@ export const useItemsStore = create(
       },
     }),
     {
-      name: "items",
+      name: "trekbag:items",
     }
   )
 );
